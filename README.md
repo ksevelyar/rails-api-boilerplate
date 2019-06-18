@@ -1,24 +1,11 @@
-# README
+# Rails 6 JSON API Boilerplate
+![Hello world](https://i.imgur.com/uRG2hhP.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Setup
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+bundle
+bundle exec spring binstub --all
+bin/rails db:setup
+bin/rails s
+```
